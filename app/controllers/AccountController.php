@@ -21,6 +21,5 @@ class AccountController extends Autoloader {
     public function create() {
          
         }
-    }
 
 }
