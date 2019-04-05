@@ -1,5 +1,5 @@
 <?php
-
+use illuminate\database\Eloguent\Model as Eloguent;  
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,7 +11,7 @@
  *
  * @author ServerLand
  */
-class page {
+class page extends Eloquent{
     
     public $name;
     

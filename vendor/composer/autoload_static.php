@@ -87,11 +87,17 @@ class ComposerStaticInit410587c0aa8a89433590ad2cefb945dd
         ),
     );
 
+    public static $classMap = array (
+        'Account' => __DIR__ . '/../..' . '/app/models/Account.php',
+        'page' => __DIR__ . '/../..' . '/app/models/page.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit410587c0aa8a89433590ad2cefb945dd::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit410587c0aa8a89433590ad2cefb945dd::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit410587c0aa8a89433590ad2cefb945dd::$classMap;
 
         }, null, ClassLoader::class);
     }
