@@ -1,3 +1,8 @@
 {
-    "name": "ServerLand"
+    "name":"illuminate-example/eloquent",
+    "description":"",
+    "type":"project",
+    "require":{
+        "illuminate/database":"^5.8"
+    }
 }

@@ -10,5 +10,4 @@ require_once 'core/Router.php';
 require_once 'core/Autoloader.php';
 require_once 'config/config.php';
 require_once 'database/Database.php';
-// require_once 'app/views/Layout/header.php';
 

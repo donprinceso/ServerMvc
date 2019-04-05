@@ -7,11 +7,11 @@ and open the template in the editor.
     Created on : Mar 29, 2019, 3:43:49 AM
     Author     : ServerLand
 */
-.text_center{
+#footer{
     text-align: center;
-    text-justify:distribute;
-    margin-left: 15%;
+    display: block;
+    text-decoration: none;
 }
- body{
-     margin: 0% 15% 0% 15%;            
-    }
+#footer a:hover{
+    text-decoration: none;
+}

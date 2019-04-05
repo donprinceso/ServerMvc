@@ -1,30 +1,40 @@
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand">Logo</a>
-    
-    <button class="navbar-toggler" type="button" data-target="#collapenavbar" data-toggler="collapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapenavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link " href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Home</a>
-            </li>
-        </ul>
-        
-        <ul class="navbar-nav float-right">
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search"/>
-                <input class="btn btn-success" type="submit" value="submit"/>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapenavbar">
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapenavbar">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active " href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Link 3</a>
+                </li>
+            </ul>
+
+            <form class="navbar-form navbar-right" action="">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
             </form>
-        </ul>
-     </div>
+        </div>
+    </div>
 </nav>

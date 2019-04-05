@@ -7,7 +7,7 @@
  */
 define('ROOT', dirname(__FILE__));
 //defining the site url
-define('SITE_URL', 'Base.dev');
+define('SITE_URL', 'http://localhost/ServerMvc/');
 
 //defining the site name
 define('SITE_NAME', 'Base');
